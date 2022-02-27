@@ -7,7 +7,8 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         ExampleTest.class,
         RecipeTest.class,
-        InventoryTest.class
+        InventoryTest.class,
+        CoffeeMakerTest.class
 })
 
 public class JUnitTest {

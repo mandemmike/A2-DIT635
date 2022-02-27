@@ -6,10 +6,8 @@ import org.junit.Test;
 
 //import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class CoffeMakerTest {
+public class CoffeeMakerTest {
 
     private CoffeeMaker cm;
     private Recipe MikeSpecial;
@@ -47,7 +45,6 @@ public class CoffeMakerTest {
         int expected = 300 - price;
 
         assertEquals(expected, change);
-
     }
 
     @Test
@@ -70,8 +67,6 @@ public class CoffeMakerTest {
         String expected = cm.getRecipes()[0].getName();
         assertNotEquals(name, expected);
     }
-
-
 
 }
 
